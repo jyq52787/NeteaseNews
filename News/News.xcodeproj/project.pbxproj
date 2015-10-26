@@ -11,6 +11,7 @@
 		4A9FF1F11BDBEC900056EDA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9FF1F01BDBEC900056EDA9 /* AppDelegate.swift */; };
 		4A9FF1F81BDBEC900056EDA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9FF1F71BDBEC900056EDA9 /* Assets.xcassets */; };
 		4A9FF1FB1BDBEC900056EDA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9FF1F91BDBEC900056EDA9 /* LaunchScreen.storyboard */; };
+		4AD93D2F1BDE6884002116E9 /* regexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD93D2E1BDE6884002116E9 /* regexViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4A9FF1F71BDBEC900056EDA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A9FF1FA1BDBEC900056EDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A9FF1FC1BDBEC900056EDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD93D2E1BDE6884002116E9 /* regexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = regexViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				4A9FF1F01BDBEC900056EDA9 /* AppDelegate.swift */,
 				4A4E47E41BDDC27A00A7600D /* photoSeletorViewController.swift */,
+				4AD93D2E1BDE6884002116E9 /* regexViewController.swift */,
 				4A9FF1F71BDBEC900056EDA9 /* Assets.xcassets */,
 				4A9FF1F91BDBEC900056EDA9 /* LaunchScreen.storyboard */,
 				4A9FF1FC1BDBEC900056EDA9 /* Info.plist */,
@@ -132,6 +135,7 @@
 			files = (
 				4A4E47E51BDDC27A00A7600D /* photoSeletorViewController.swift in Sources */,
 				4A9FF1F11BDBEC900056EDA9 /* AppDelegate.swift in Sources */,
+				4AD93D2F1BDE6884002116E9 /* regexViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
