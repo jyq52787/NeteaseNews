@@ -7,18 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A4E47E51BDDC27A00A7600D /* photoSeletorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E47E41BDDC27A00A7600D /* photoSeletorViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		4A9FF1F11BDBEC900056EDA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9FF1F01BDBEC900056EDA9 /* AppDelegate.swift */; };
-		4A9FF1F31BDBEC900056EDA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9FF1F21BDBEC900056EDA9 /* ViewController.swift */; };
-		4A9FF1F61BDBEC900056EDA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9FF1F41BDBEC900056EDA9 /* Main.storyboard */; };
 		4A9FF1F81BDBEC900056EDA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9FF1F71BDBEC900056EDA9 /* Assets.xcassets */; };
 		4A9FF1FB1BDBEC900056EDA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9FF1F91BDBEC900056EDA9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A4E47E41BDDC27A00A7600D /* photoSeletorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photoSeletorViewController.swift; sourceTree = "<group>"; };
 		4A9FF1ED1BDBEC900056EDA9 /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9FF1F01BDBEC900056EDA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A9FF1F21BDBEC900056EDA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A9FF1F51BDBEC900056EDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A9FF1F71BDBEC900056EDA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A9FF1FA1BDBEC900056EDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A9FF1FC1BDBEC900056EDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,8 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				4A9FF1F01BDBEC900056EDA9 /* AppDelegate.swift */,
-				4A9FF1F21BDBEC900056EDA9 /* ViewController.swift */,
-				4A9FF1F41BDBEC900056EDA9 /* Main.storyboard */,
+				4A4E47E41BDDC27A00A7600D /* photoSeletorViewController.swift */,
 				4A9FF1F71BDBEC900056EDA9 /* Assets.xcassets */,
 				4A9FF1F91BDBEC900056EDA9 /* LaunchScreen.storyboard */,
 				4A9FF1FC1BDBEC900056EDA9 /* Info.plist */,
@@ -123,7 +120,6 @@
 			files = (
 				4A9FF1FB1BDBEC900056EDA9 /* LaunchScreen.storyboard in Resources */,
 				4A9FF1F81BDBEC900056EDA9 /* Assets.xcassets in Resources */,
-				4A9FF1F61BDBEC900056EDA9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A9FF1F31BDBEC900056EDA9 /* ViewController.swift in Sources */,
+				4A4E47E51BDDC27A00A7600D /* photoSeletorViewController.swift in Sources */,
 				4A9FF1F11BDBEC900056EDA9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,14 +138,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4A9FF1F41BDBEC900056EDA9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A9FF1F51BDBEC900056EDA9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4A9FF1F91BDBEC900056EDA9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +271,7 @@
 				4A9FF2011BDBEC900056EDA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
