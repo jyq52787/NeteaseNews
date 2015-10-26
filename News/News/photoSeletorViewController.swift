@@ -15,8 +15,12 @@ class photoSeletorViewController: UIViewController {
         
         setUpImageV1()
         
+        demo()
         
-        
+    }
+    
+    func demo() {
+        print("I ")
     }
     func setUpImageV1(){
         
